@@ -1,0 +1,44 @@
+.blocos_artistas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // animation: AnimacaoEscolhe 1s infinite alternate;
+
+  .artista {
+    flex: 1;
+    border: 1px dashed red;
+    min-height: 400px;
+    background-repeat: repeat-x;
+  }
+
+  .a1 {
+    background-color: antiquewhite;
+    background-image: url("https://static.todamateria.com.br/upload/ma/ca/macacocalvoplatyrrhini-cke.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .a2 {
+    background-color: aquamarine;
+    background-image: url("https://static.todamateria.com.br/upload/ma/ca/macacocalvoplatyrrhini-cke.jpg");
+    background-size: contain;
+    background-position: center;
+  }
+
+  .a3 {
+    background-image: url("https://static.todamateria.com.br/upload/ma/ca/macacocalvoplatyrrhini-cke.jpg");
+    background-color: cadetblue;
+    background-size: 100%;
+
+  }
+}
+
+@keyframes AnimacaoEscolhe {
+  0% {
+    width: 10%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}

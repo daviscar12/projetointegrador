@@ -1,0 +1,15 @@
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap; // quebra caso seja maior que a tela
+
+    .produto {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        // max-width: 400px;
+        padding: 50px;
+        // height: 100%;
+
+        flex-basis: 400px;
+    }
+}
