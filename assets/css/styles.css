@@ -61,9 +61,14 @@
   flex-basis: 400px;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .cabecalho {
   width: 100%;
-  background-color: yellow;
+  background-color: #265697;
   display: flex;
   justify-content: space-around;
   align-items: first baseline;
@@ -76,10 +81,22 @@
   font-family: sans-serif;
 }
 .container-logo .logo-texto {
-  color: black;
+  color: #f57636;
   font-size: x-large;
   font-display: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
+  display: flex;
+  flex-direction: row;
+}
+
+.imglogon {
+  display: flex;
+  align-items: end;
+}
+.imglogon div {
+  display: flex;
+  align-items: end;
 }
 
 .menu li {
@@ -90,8 +107,10 @@
 .menu li a {
   font-size: 24px;
   text-decoration: none;
-  color: black;
+  color: #f57636;
   text-transform: uppercase;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-style: oblique;
   padding: 10px 15px;
 }
 
@@ -102,7 +121,7 @@
 
 .produto > .botao-comprar {
   display: inline-block;
-  background-color: #00b30f;
+  background-color: #265697;
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -118,13 +137,13 @@
   display: block;
 }
 .produto > .botao-comprar:hover {
-  background-color: #ebfc00;
+  background-color: #f57636;
 }
 .produto > .botao-comprar a {
   text-decoration: none;
   font-style: bold;
   font-size: larger;
-  color: black;
+  color: white;
 }
 
 * {
@@ -276,7 +295,7 @@ body.wrapper .register-link p a:hover {
 }
 
 .about-text span {
-  color: yellow;
+  color: #f57636;
 }
 
 .about-text p {
@@ -964,20 +983,21 @@ body {
 #search-bar {
   padding: 10px;
   width: 300px;
-  border: 2px solid #ccc;
+  border: 2px solid #f57636;
   border-radius: 5px;
   font-size: 16px;
   outline: none;
   transition: border 0.3s;
+  color: #f57636;
 }
 
 #search-bar:focus {
-  border: 2px solid #00b30f;
+  border: 2px solid #f57636;
 }
 
 #search-btn {
   padding: 10px 20px;
-  background-color: #00b30f;
+  background-color: #f57636;
   color: white;
   border: none;
   border-radius: 5px;
@@ -987,13 +1007,13 @@ body {
 }
 
 #search-btn:hover {
-  background-color: #0056b3;
+  background-color: #ac3900;
 }
 
 #search-result {
   margin-top: 20px;
   font-size: 18px;
-  color: #333;
+  color: #f57636;
 }
 
 * {
